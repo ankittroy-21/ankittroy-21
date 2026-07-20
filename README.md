@@ -226,16 +226,16 @@ Stage code in VS Code, commit & push from Telegram. Your GitHub workflow — whe
 </td>
 <td width="50%" valign="top">
 
-#### 🤖 [Triage Agent](https://github.com/ankittroy-21/triage-agent)
+#### 🤖 [Triage Agent](https://github.com/ankittroy-21/hackerrank-orchestrate-may26)
 > **AI-Powered Medical Triage Assistant**
 
 An AI agent that performs smart medical triage — classifying patient symptoms, prioritizing severity, and routing to the right care. Built under hackathon pressure.
 
 `Python` `LangChain` `Groq` `FastAPI` `AI Agents`
 
-[![Stars](https://img.shields.io/github/stars/ankittroy-21/triage-agent?style=flat-square&color=f59e0b&labelColor=0d1117)](https://github.com/ankittroy-21/triage-agent/stargazers)
-[![Forks](https://img.shields.io/github/forks/ankittroy-21/triage-agent?style=flat-square&color=f59e0b&labelColor=0d1117)](https://github.com/ankittroy-21/triage-agent/network)
-[![Badge](https://img.shields.io/badge/🏆-Hackathon-f59e0b?style=flat-square&labelColor=0d1117)](https://github.com/ankittroy-21/triage-agent)
+[![Stars](https://img.shields.io/github/stars/ankittroy-21/hackerrank-orchestrate-may26?style=flat-square&color=f59e0b&labelColor=0d1117)](https://github.com/ankittroy-21/hackerrank-orchestrate-may26/stargazers)
+[![Forks](https://img.shields.io/github/forks/ankittroy-21/hackerrank-orchestrate-may26?style=flat-square&color=f59e0b&labelColor=0d1117)](https://github.com/ankittroy-21/hackerrank-orchestrate-may26/network)
+[![Badge](https://img.shields.io/badge/🏆-Hackathon-f59e0b?style=flat-square&labelColor=0d1117)](https://github.com/ankittroy-21/hackerrank-orchestrate-may26)
 
 </td>
 </tr>
@@ -306,31 +306,29 @@ A cross-platform voice assistant that understands intent and executes tasks. Bey
 
 </td>
 </tr>
+</table>
+
+---
+
+### 🎓 Internship Project
+
+<table>
 <tr>
 <td width="50%" valign="top">
 
 #### 📐 [Latex-Generator](https://github.com/ankittroy-21/Latex-Generator)
 > **Math Should Be Beautiful**
 
-Generate LaTeX diagrams and mathematical content from code — because beautiful documentation shouldn't require manual typesetting.
+Built during an internship — programmatically generate LaTeX diagrams and mathematical content from code. Because beautiful documentation shouldn't require manual typesetting.
 
 `Python` `LaTeX` `Automation`
 
-[![Stars](https://img.shields.io/github/stars/ankittroy-21/Latex-Generator?style=flat-square&color=00FF87&labelColor=0d1117)](https://github.com/ankittroy-21/Latex-Generator/stargazers)
-[![Status](https://img.shields.io/badge/Status-Shipped-00FF87?style=flat-square&labelColor=0d1117)](https://github.com/ankittroy-21/Latex-Generator)
+[![Stars](https://img.shields.io/github/stars/ankittroy-21/Latex-Generator?style=flat-square&color=e879f9&labelColor=0d1117)](https://github.com/ankittroy-21/Latex-Generator/stargazers)
+[![Size](https://img.shields.io/github/repo-size/ankittroy-21/Latex-Generator?style=flat-square&color=e879f9&labelColor=0d1117)](https://github.com/ankittroy-21/Latex-Generator)
+[![Badge](https://img.shields.io/badge/🎓-Internship-e879f9?style=flat-square&labelColor=0d1117)](https://github.com/ankittroy-21/Latex-Generator)
 
 </td>
 <td width="50%" valign="top">
-
-#### ☸️ [kuberef](https://github.com/ankittroy-21/kuberef)
-> **Kubernetes Reference in Your Terminal**
-
-A PyPI package that brings the entire Kubernetes reference to your CLI. Stop googling `kubectl` syntax — just `kuberef`.
-
-`Python` `PyPI` `Kubernetes` `CLI`
-
-[![PyPI](https://img.shields.io/pypi/v/kuberef?style=flat-square&color=3775A9&labelColor=0d1117&logo=pypi)](https://pypi.org/project/kuberef/)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/kuberef?style=flat-square&color=ff9f43&labelColor=0d1117&logo=pypi)](https://pypi.org/project/kuberef/)
 
 </td>
 </tr>
@@ -408,6 +406,25 @@ Real-time lecture engagement platform — keeping students locked in, live.
 
 [![Live](https://img.shields.io/badge/Live-lecturepulse-2ECC71?style=flat-square)](https://lecturepulse.vercel.app)
 [![Stars](https://img.shields.io/github/stars/ankittroy-21/LecturePulse?style=flat-square&color=2ECC71&labelColor=0d1117)](https://github.com/ankittroy-21/LecturePulse)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+#### ☸️ [kuberef](https://github.com/ankittroy-21/kuberef)
+Kubernetes reference PyPI package — for devs who live in the terminal. Stop googling `kubectl` syntax.
+
+`Python` `PyPI` `Kubernetes` `CLI`
+
+[![PyPI](https://img.shields.io/pypi/v/kuberef?style=flat-square&color=2ECC71&labelColor=0d1117&logo=pypi)](https://pypi.org/project/kuberef/)
+[![Downloads](https://img.shields.io/pypi/dm/kuberef?style=flat-square&color=ff9f43&labelColor=0d1117&logo=pypi)](https://pypi.org/project/kuberef/)
+
+</td>
+<td width="33%" valign="top">
+
+</td>
+<td width="33%" valign="top">
 
 </td>
 </tr>
