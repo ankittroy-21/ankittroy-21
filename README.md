@@ -479,8 +479,7 @@ Kubernetes reference PyPI package — for devs who live in the terminal. Stop go
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-@ankittroy--21-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ankittroy-21)
-[![VSCode Marketplace](https://img.shields.io/badge/VSCode_Marketplace-Gitphone-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=ankittroy-21.gitphone)
-[![PyPI](https://img.shields.io/badge/PyPI-kuberef-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/kuberef/)
+[![Telegram](https://img.shields.io/badge/Telegram-@itz__oxi-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/itz_oxi)
 
 </div>
 
@@ -506,7 +505,5 @@ Kubernetes reference PyPI package — for devs who live in the terminal. Stop go
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ankittroy-21&color=00FF87&style=flat-square&label=Visitors)
-&nbsp;·&nbsp;
-**Made with 🔥 by [Ankit Roy](https://github.com/ankittroy-21)**
 
 </div>
