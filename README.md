@@ -55,7 +55,7 @@
   <circle cx="65" cy="65" r="48" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.9" filter="url(#glow)"/>
 
   <!-- Profile picture (GitHub avatar) -->
-  <image href="https://avatars.githubusercontent.com/u/82595330?v=4"
+  <image href="avatar.png"
          x="19" y="19" width="92" height="92"
          clip-path="url(#avatar-clip)"
          preserveAspectRatio="xMidYMid slice"/>
