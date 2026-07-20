@@ -4,7 +4,7 @@
      HERO BANNER — inline SVG
      ══════════════════════════════════════════════════ -->
 
-<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="860" height="130" viewBox="0 0 860 130" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#060d16"/>
@@ -29,82 +29,43 @@
       <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <!-- Avatar clip -->
-    <clipPath id="avatar-clip"><circle cx="108" cy="100" r="56"/></clipPath>
+    <clipPath id="avatar-clip"><circle cx="65" cy="65" r="46"/></clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="860" height="200" rx="18" fill="url(#bg)"/>
+  <rect width="860" height="130" rx="18" fill="url(#bg)"/>
 
   <!-- Subtle circuit-board grid -->
   <g stroke="#1a2e45" stroke-width="0.4" opacity="0.5">
-    <line x1="0" y1="50"  x2="240" y2="50"/><line x1="0" y1="100" x2="200" y2="100"/>
-    <line x1="0" y1="150" x2="240" y2="150"/><line x1="50"  y1="0" x2="50"  y2="200"/>
-    <line x1="100" y1="0" x2="100" y2="44"/><line x1="100" y1="56" x2="100" y2="94"/>
-    <line x1="100" y1="106" x2="100" y2="144"/><line x1="100" y1="156" x2="100" y2="200"/>
-    <line x1="150" y1="0" x2="150" y2="200"/><line x1="200" y1="0" x2="200" y2="94"/>
-    <line x1="200" y1="106" x2="200" y2="200"/>
+    <line x1="0" y1="40"  x2="150" y2="40"/><line x1="0" y1="90" x2="140" y2="90"/>
+    <line x1="50"  y1="0" x2="50"  y2="130"/><line x1="100" y1="0" x2="100" y2="30"/>
+    <line x1="100" y1="50" x2="100" y2="80"/><line x1="100" y1="100" x2="100" y2="130"/>
+    <line x1="150" y1="0" x2="150" y2="130"/>
     <!-- right side -->
-    <line x1="620" y1="50"  x2="860" y2="50"/><line x1="660" y1="100" x2="860" y2="100"/>
-    <line x1="620" y1="150" x2="860" y2="150"/><line x1="810" y1="0" x2="810" y2="200"/>
-    <line x1="760" y1="0" x2="760" y2="200"/><line x1="710" y1="0" x2="710" y2="200"/>
-    <line x1="660" y1="0" x2="660" y2="200"/>
+    <line x1="710" y1="40"  x2="860" y2="40"/><line x1="680" y1="90" x2="860" y2="90"/>
+    <line x1="810" y1="0" x2="810" y2="130"/><line x1="760" y1="0" x2="760" y2="130"/>
+    <line x1="710" y1="0" x2="710" y2="130"/>
   </g>
 
   <!-- Top accent bar -->
   <rect x="0" y="0" width="860" height="3" rx="2" fill="url(#accent)"/>
 
   <!-- Glow ring behind avatar -->
-  <circle cx="108" cy="100" r="64" fill="none" stroke="#00FF87" stroke-width="1.5" opacity="0.25"/>
-  <circle cx="108" cy="100" r="60" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="65" cy="65" r="52" fill="none" stroke="#00FF87" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="65" cy="65" r="48" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.9" filter="url(#glow)"/>
 
   <!-- Profile picture (GitHub avatar) -->
   <image href="https://avatars.githubusercontent.com/u/82595330?v=4"
-         x="52" y="44" width="112" height="112"
+         x="19" y="19" width="92" height="92"
          clip-path="url(#avatar-clip)"
          preserveAspectRatio="xMidYMid slice"/>
 
-  <!-- Online dot -->
-  <circle cx="152" cy="148" r="9" fill="#060d16"/>
-  <circle cx="152" cy="148" r="6.5" fill="#00FF87" filter="url(#soft-glow)">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
-  </circle>
-
   <!-- Name -->
-  <text x="208" y="80" font-family="'Segoe UI', 'Inter', monospace" font-size="36" font-weight="800"
+  <text x="155" y="76" font-family="'Segoe UI', 'Inter', monospace" font-size="36" font-weight="800"
         fill="url(#name-grad)" filter="url(#glow)" letter-spacing="1">ANKIT ROY</text>
 
-  <!-- Handle -->
-  <text x="211" y="103" font-family="monospace" font-size="14" fill="#8b949e" letter-spacing="0.5">
-    @ankittroy-21  ·  India 🇮🇳
-  </text>
-
-  <!-- Divider -->
-  <rect x="208" y="112" width="490" height="1.2" fill="url(#accent)" opacity="0.35"/>
-
-  <!-- Tag pills row -->
-  <!-- Hackathon -->
-  <rect x="208" y="122" width="110" height="22" rx="11" fill="#7c3aed" opacity="0.18"/>
-  <text x="263" y="137" font-family="monospace" font-size="11" fill="#a78bfa" text-anchor="middle">🏆 Hackathon Vet</text>
-
-  <!-- VSCode Publisher -->
-  <rect x="326" y="122" width="138" height="22" rx="11" fill="#007acc" opacity="0.18"/>
-  <text x="395" y="137" font-family="monospace" font-size="11" fill="#60efff" text-anchor="middle">⚡ VSCode Publisher</text>
-
-  <!-- Open Source -->
-  <rect x="472" y="122" width="118" height="22" rx="11" fill="#16a34a" opacity="0.18"/>
-  <text x="531" y="137" font-family="monospace" font-size="11" fill="#00FF87" text-anchor="middle">🌐 Open Source</text>
-
-  <!-- AI & Automation -->
-  <rect x="598" y="122" width="112" height="22" rx="11" fill="#c2410c" opacity="0.18"/>
-  <text x="654" y="137" font-family="monospace" font-size="11" fill="#fb923c" text-anchor="middle">🤖 AI &amp; Automation</text>
-
-  <!-- Mission line -->
-  <text x="208" y="168" font-family="monospace" font-size="12.5" fill="#64748b">
-    Ship fast. Break nothing. Automate everything else.
-  </text>
-
   <!-- Bottom accent bar -->
-  <rect x="0" y="197" width="860" height="3" rx="2" fill="url(#accent)"/>
+  <rect x="0" y="127" width="860" height="3" rx="2" fill="url(#accent)"/>
 </svg>
 
 <br/>
